@@ -1,0 +1,99 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #a4bc61;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+}
+
+.header h2 {
+  margin-bottom: 10px;
+}
+
+.input-form {
+  display: flex;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+input[type='text'] {
+  flex-grow: 1;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.results {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.results ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.results li {
+  padding: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.results li:last-child {
+  border-bottom: none;
+}
+
+.results li strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #0056b3;
+}
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid #f5c6cb;
+  margin-top: 20px;
+  text-align: center;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}

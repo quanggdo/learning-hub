@@ -1,0 +1,92 @@
+## Visual Studio / .NET
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build artifacts
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+*.ilk
+*.pdb
+*.ipdb
+*.dll
+*.exe
+*.cache
+
+## Rider / JetBrains
+.idea/
+
+## NuGet
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ASP.NET Core
+appsettings.Development.json
+secrets.json
+*.db
+
+## Publish
+*.Publish.xml
+
+## Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.pnpm-store/
+dist/
+build/
+public/build/
+/.vite
+/.turbo
+
+## VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Logs
+logs/
+*.log
+npm-debug.log*
+
+## Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.DS_Store
+
+## Environment / secrets
+.env
+.env.*
+*.local
+secrets.json
+
+## Others
+*.dbmdl
+*.dbproj.schemaview
+runtimes/
+
+# Node cache
+.npm/
+.cache/
+

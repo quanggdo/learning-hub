@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-hub-be", "learning-hub-be.csproj", "{2301A346-6BB7-52C8-8B63-58D1C6B42FA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2301A346-6BB7-52C8-8B63-58D1C6B42FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2301A346-6BB7-52C8-8B63-58D1C6B42FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2301A346-6BB7-52C8-8B63-58D1C6B42FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2301A346-6BB7-52C8-8B63-58D1C6B42FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0153875E-79BA-4D2D-A700-A692211A6819}
+	EndGlobalSection
+EndGlobal
